@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import menu from "../../assets/data";
-import './Card.css'
+import "./Card.css";
 
 export default class Card extends Component {
   render() {

@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import "./header.css";
+import styles from "./header.module.css";
 
 export default class Header extends Component {
   render() {
     return (
-      <header className="title">
+      <header className={styles["title"]}>
         <h1>Evangadi Menu</h1>
         <div />
       </header>

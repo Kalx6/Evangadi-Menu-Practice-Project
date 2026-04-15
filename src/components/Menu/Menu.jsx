@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Card from "../Card.jsx/Card";
 import Header from "../Header/Header";
-import styles from "./foodItems.module.css";
+import styles from "./menu.module.css";
+import FoodItem from "../FoodItem/FoodItem";
 
 export default class FoodItems extends Component {
   render() {
@@ -9,7 +9,7 @@ export default class FoodItems extends Component {
       <div className={styles["all-container"]}>
         <Header />
         <div className={styles["foods-container"]}>
-          <Card />
+          <FoodItem />
         </div>
       </div>
     );

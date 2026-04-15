@@ -10,6 +10,11 @@
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+a {
+  text-decoration: none;
+  color: #ff9500;
+}
+
 .single-food:hover {
   transform: scale(1.007);
   cursor: pointer;
